@@ -23,7 +23,7 @@ public class StreamDurablePublisherAck {
             String subject = "subject.one";
 
             // Message content
-            byte[] messageBytes = "This is great!".getBytes();
+            byte[] messageBytes = "India!".getBytes();
 
             // Publish the message to the JetStream stream "stream-1" and get acknowledgment
             PublishAck ack = js.publish(subject, messageBytes);
